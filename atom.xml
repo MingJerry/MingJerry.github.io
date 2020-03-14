@@ -23,13 +23,14 @@
     <published>2020-03-14T07:35:31.000Z</published>
     <updated>2020-03-14T07:36:23.421Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="第二次测试"><a href="#第二次测试" class="headerlink" title="第二次测试"></a>第二次测试</h2>]]></content>
-    
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;第二次测试&quot;&gt;&lt;a href=&quot;#第二次测试&quot; class=&quot;headerlink&quot; title=&quot;第二次测试&quot;&gt;&lt;/a&gt;第二次测试&lt;/h2&gt;
+        
+        
+          &lt;h2 id=&quot;第二次测试&quot;&gt;&lt;a href=&quot;#第二次测试&quot; class=&quot;headerlink&quot;
+        
       
     
     </summary>
@@ -45,13 +46,14 @@
     <published>2020-03-14T07:17:07.568Z</published>
     <updated>2020-03-14T07:17:07.569Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
       
     
     </summary>
@@ -67,15 +69,14 @@
     <published>2019-05-14T07:28:19.000Z</published>
     <updated>2020-03-14T08:39:07.872Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="安装-node"><a href="#安装-node" class="headerlink" title="安装 node"></a>安装 node</h2><blockquote><p>官网下载，安装，同时会自动下载npm包管理工具</p></blockquote><p>输入node -v检查是否安装完成。</p><h2 id="下载hexo"><a href="#下载hexo" class="headerlink" title="下载hexo"></a>下载hexo</h2><blockquote><p>npm 国内直接下载hexo速度感人。建议配置国内淘宝源。</p></blockquote><h3 id="配置taobao源"><a href="#配置taobao源" class="headerlink" title="配置taobao源"></a>配置taobao源</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br><span class="line">npm config get registry  //返回https://registry.npm.taobao.org，说明镜像配置成功。</span><br><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure><h3 id="下载hexo-1"><a href="#下载hexo-1" class="headerlink" title="下载hexo"></a>下载hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br></pre></td></tr></table></figure><h2 id="配置Hexo"><a href="#配置Hexo" class="headerlink" title="配置Hexo"></a>配置Hexo</h2><blockquote><p>新建一个目录，命名HexoBlog（随意）。进入这个目录。</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure><p>初始化完后，可以运行hexo s 检查下。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>打开 浏览器地址栏输入 localhost：4000 可以看到hexo的第一篇博客。</p><h2 id="Helloword"><a href="#Helloword" class="headerlink" title="Helloword"></a>Helloword</h2><p>进入博客文件夹，在终端运行hexo n “”创建第一篇。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">hexo n <span class="string">"HelloWorldForHexo"</span></span><br><span class="line"><span class="built_in">cd</span> <span class="built_in">source</span>/_posts/</span><br><span class="line">vi HelloWorldForHexo.md <span class="comment"># 利用vi编辑md，也可以在其他markdown软件编辑。</span></span><br><span class="line"><span class="built_in">cd</span> ../.. <span class="comment"># 回到博客文件夹</span></span><br><span class="line">hexo clean </span><br><span class="line">hexo g <span class="comment"># 生成</span></span><br><span class="line">hexo s <span class="comment"># 到localhost:4000预览</span></span><br></pre></td></tr></table></figure><h2 id="安装Git-部署插件"><a href="#安装Git-部署插件" class="headerlink" title="安装Git 部署插件"></a>安装Git 部署插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure><p>安装完成后，需要修改_config.yml文件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi _config.yml</span><br></pre></td></tr></table></figure><p>在文件的最下面修改成</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/demo/demo.github.io.git <span class="comment"># 你自己的GitHub仓库地址</span></span><br><span class="line">  branch: master <span class="comment"># 分支</span></span><br></pre></td></tr></table></figure><p>保存后</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d <span class="comment"># 部署到github上</span></span><br></pre></td></tr></table></figure>]]></content>
-    
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;安装-node&quot;&gt;&lt;a href=&quot;#安装-node&quot; class=&quot;headerlink&quot; title=&quot;安装 node&quot;&gt;&lt;/a&gt;安装 node&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;官网下载，安装，同时会自动下载npm包管理工具&lt;/p&gt;
-&lt;/blockqu
+        
+        
+          &lt;h2 id=&quot;安装-node&quot;&gt;&lt;a href=&quot;#安装-node&quot; class=&quot;headerlink&quot; title=&quot;安装 node&quot;&gt;&lt;/a&gt;安装
+        
       
     
     </summary>
@@ -91,13 +92,14 @@
     <published>2019-05-14T07:28:19.000Z</published>
     <updated>2020-03-14T07:43:48.226Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h2>]]></content>
-    
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;Test&quot;&gt;&lt;a href=&quot;#Test&quot; class=&quot;headerlink&quot; title=&quot;Test&quot;&gt;&lt;/a&gt;Test&lt;/h2&gt;
+        
+        
+          &lt;h2 id=&quot;Test&quot;&gt;&lt;a href=&quot;#Test&quot; class=&quot;headerlink&quot;
+        
       
     
     </summary>
