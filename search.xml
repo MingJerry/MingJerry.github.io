@@ -24,6 +24,11 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Test</title>
+    <url>/2019/05/14/Test/</url>
+    <content><![CDATA[<h2 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h2>]]></content>
+  </entry>
+  <entry>
     <title>Hexo博客</title>
     <url>/2019/05/14/Hexo%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h2 id="安装-node"><a href="#安装-node" class="headerlink" title="安装 node"></a>安装 node</h2><blockquote>
@@ -61,10 +66,5 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo d <span class="comment"># 部署到github上</span></span><br></pre></td></tr></table></figure>
 
 ]]></content>
-  </entry>
-  <entry>
-    <title>Test</title>
-    <url>/2019/05/14/Test/</url>
-    <content><![CDATA[<h2 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h2>]]></content>
   </entry>
 </search>
